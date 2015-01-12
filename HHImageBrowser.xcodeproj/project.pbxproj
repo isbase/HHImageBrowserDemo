@@ -14,6 +14,7 @@
 		077EF15A1A63DE7E00910317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077EF1591A63DE7E00910317 /* Images.xcassets */; };
 		077EF15D1A63DE7E00910317 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077EF15B1A63DE7E00910317 /* LaunchScreen.xib */; };
 		077EF1691A63DE7E00910317 /* HHImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077EF1681A63DE7E00910317 /* HHImageBrowserTests.m */; };
+		5F17FC3C1A6411A00047B555 /* HHPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F17FC3B1A6411A00047B555 /* HHPhotoBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		077EF1621A63DE7E00910317 /* HHImageBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHImageBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		077EF1671A63DE7E00910317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077EF1681A63DE7E00910317 /* HHImageBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHImageBrowserTests.m; sourceTree = "<group>"; };
+		5F17FC3A1A6411A00047B555 /* HHPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPhotoBrowser.h; sourceTree = "<group>"; };
+		5F17FC3B1A6411A00047B555 /* HHPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPhotoBrowser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		077EF14B1A63DE7E00910317 /* HHImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				5F17FC381A640EEA0047B555 /* HHImageBrowser */,
 				077EF1501A63DE7E00910317 /* AppDelegate.h */,
 				077EF1511A63DE7E00910317 /* AppDelegate.m */,
 				077EF1531A63DE7E00910317 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				077EF1671A63DE7E00910317 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F17FC381A640EEA0047B555 /* HHImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				5F17FC3A1A6411A00047B555 /* HHPhotoBrowser.h */,
+				5F17FC3B1A6411A00047B555 /* HHPhotoBrowser.m */,
+			);
+			path = HHImageBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				077EF1551A63DE7E00910317 /* ViewController.m in Sources */,
+				5F17FC3C1A6411A00047B555 /* HHPhotoBrowser.m in Sources */,
 				077EF1521A63DE7E00910317 /* AppDelegate.m in Sources */,
 				077EF14F1A63DE7E00910317 /* main.m in Sources */,
 			);
@@ -414,6 +428,7 @@
 				077EF16E1A63DE7E00910317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		077EF16F1A63DE7E00910317 /* Build configuration list for PBXNativeTarget "HHImageBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +437,7 @@
 				077EF1711A63DE7E00910317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
