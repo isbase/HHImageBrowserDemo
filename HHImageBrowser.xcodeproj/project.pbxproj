@@ -14,7 +14,13 @@
 		077EF15A1A63DE7E00910317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077EF1591A63DE7E00910317 /* Images.xcassets */; };
 		077EF15D1A63DE7E00910317 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077EF15B1A63DE7E00910317 /* LaunchScreen.xib */; };
 		077EF1691A63DE7E00910317 /* HHImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077EF1681A63DE7E00910317 /* HHImageBrowserTests.m */; };
-		5F17FC3C1A6411A00047B555 /* HHPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F17FC3B1A6411A00047B555 /* HHPhotoBrowser.m */; };
+		5FD15EAF1A6C00E100D9A1A6 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD15EAA1A6C00E100D9A1A6 /* MWTapDetectingImageView.m */; };
+		5FD15EB01A6C00E100D9A1A6 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD15EAC1A6C00E100D9A1A6 /* MWTapDetectingView.m */; };
+		5FD15EB11A6C00E100D9A1A6 /* MWZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD15EAE1A6C00E100D9A1A6 /* MWZoomingScrollView.m */; };
+		5FD15EB41A6C016F00D9A1A6 /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD15EB31A6C016F00D9A1A6 /* MWPhoto.m */; };
+		5FD15EB91A6C036200D9A1A6 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD15EB81A6C036200D9A1A6 /* DACircularProgressView.m */; };
+		5FD15EBD1A6C045800D9A1A6 /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD15EBB1A6C045800D9A1A6 /* MWPhotoBrowser.m */; };
+		5FD15EC31A6C060200D9A1A6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD15EC11A6C060200D9A1A6 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +47,23 @@
 		077EF1621A63DE7E00910317 /* HHImageBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHImageBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		077EF1671A63DE7E00910317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077EF1681A63DE7E00910317 /* HHImageBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHImageBrowserTests.m; sourceTree = "<group>"; };
-		5F17FC3A1A6411A00047B555 /* HHPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPhotoBrowser.h; sourceTree = "<group>"; };
-		5F17FC3B1A6411A00047B555 /* HHPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPhotoBrowser.m; sourceTree = "<group>"; };
+		5FD15EA91A6C00E100D9A1A6 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
+		5FD15EAA1A6C00E100D9A1A6 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
+		5FD15EAB1A6C00E100D9A1A6 /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingView.h; sourceTree = "<group>"; };
+		5FD15EAC1A6C00E100D9A1A6 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
+		5FD15EAD1A6C00E100D9A1A6 /* MWZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWZoomingScrollView.h; sourceTree = "<group>"; };
+		5FD15EAE1A6C00E100D9A1A6 /* MWZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWZoomingScrollView.m; sourceTree = "<group>"; };
+		5FD15EB21A6C016F00D9A1A6 /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
+		5FD15EB31A6C016F00D9A1A6 /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
+		5FD15EB51A6C028F00D9A1A6 /* MWPhotoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWPhotoProtocol.h; sourceTree = "<group>"; };
+		5FD15EB71A6C036200D9A1A6 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		5FD15EB81A6C036200D9A1A6 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		5FD15EBA1A6C045800D9A1A6 /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
+		5FD15EBB1A6C045800D9A1A6 /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowser.m; sourceTree = "<group>"; };
+		5FD15EBC1A6C045800D9A1A6 /* MWPhotoBrowserPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserPrivate.h; sourceTree = "<group>"; };
+		5FD15EBE1A6C059B00D9A1A6 /* MWCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWCommon.h; sourceTree = "<group>"; };
+		5FD15EC01A6C060200D9A1A6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5FD15EC11A6C060200D9A1A6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +105,8 @@
 		077EF14B1A63DE7E00910317 /* HHImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				5FD15EBF1A6C060200D9A1A6 /* MBProgressHUD */,
+				5FD15EB61A6C036200D9A1A6 /* DACircularProgress */,
 				5F17FC381A640EEA0047B555 /* HHImageBrowser */,
 				077EF1501A63DE7E00910317 /* AppDelegate.h */,
 				077EF1511A63DE7E00910317 /* AppDelegate.m */,
@@ -126,10 +149,39 @@
 		5F17FC381A640EEA0047B555 /* HHImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				5F17FC3A1A6411A00047B555 /* HHPhotoBrowser.h */,
-				5F17FC3B1A6411A00047B555 /* HHPhotoBrowser.m */,
+				5FD15EBE1A6C059B00D9A1A6 /* MWCommon.h */,
+				5FD15EBA1A6C045800D9A1A6 /* MWPhotoBrowser.h */,
+				5FD15EBB1A6C045800D9A1A6 /* MWPhotoBrowser.m */,
+				5FD15EBC1A6C045800D9A1A6 /* MWPhotoBrowserPrivate.h */,
+				5FD15EB51A6C028F00D9A1A6 /* MWPhotoProtocol.h */,
+				5FD15EB21A6C016F00D9A1A6 /* MWPhoto.h */,
+				5FD15EB31A6C016F00D9A1A6 /* MWPhoto.m */,
+				5FD15EA91A6C00E100D9A1A6 /* MWTapDetectingImageView.h */,
+				5FD15EAA1A6C00E100D9A1A6 /* MWTapDetectingImageView.m */,
+				5FD15EAB1A6C00E100D9A1A6 /* MWTapDetectingView.h */,
+				5FD15EAC1A6C00E100D9A1A6 /* MWTapDetectingView.m */,
+				5FD15EAD1A6C00E100D9A1A6 /* MWZoomingScrollView.h */,
+				5FD15EAE1A6C00E100D9A1A6 /* MWZoomingScrollView.m */,
 			);
 			path = HHImageBrowser;
+			sourceTree = "<group>";
+		};
+		5FD15EB61A6C036200D9A1A6 /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				5FD15EB71A6C036200D9A1A6 /* DACircularProgressView.h */,
+				5FD15EB81A6C036200D9A1A6 /* DACircularProgressView.m */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		5FD15EBF1A6C060200D9A1A6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5FD15EC01A6C060200D9A1A6 /* MBProgressHUD.h */,
+				5FD15EC11A6C060200D9A1A6 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				077EF1551A63DE7E00910317 /* ViewController.m in Sources */,
-				5F17FC3C1A6411A00047B555 /* HHPhotoBrowser.m in Sources */,
+				5FD15EB11A6C00E100D9A1A6 /* MWZoomingScrollView.m in Sources */,
+				5FD15EB41A6C016F00D9A1A6 /* MWPhoto.m in Sources */,
+				5FD15EBD1A6C045800D9A1A6 /* MWPhotoBrowser.m in Sources */,
+				5FD15EC31A6C060200D9A1A6 /* MBProgressHUD.m in Sources */,
+				5FD15EB91A6C036200D9A1A6 /* DACircularProgressView.m in Sources */,
+				5FD15EB01A6C00E100D9A1A6 /* MWTapDetectingView.m in Sources */,
 				077EF1521A63DE7E00910317 /* AppDelegate.m in Sources */,
+				5FD15EAF1A6C00E100D9A1A6 /* MWTapDetectingImageView.m in Sources */,
 				077EF14F1A63DE7E00910317 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = HHImageBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -368,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = HHImageBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
